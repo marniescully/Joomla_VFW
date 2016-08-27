@@ -1,0 +1,220 @@
+@charset "utf-8";
+
+body {
+  	background-color: #be0a2f;
+  	margin:1% 5%;
+  	font-family: "Duru Sans", Verdana, sans-serif;
+}
+
+/* Header Styling */
+
+header {
+  	color:#ffffff;
+ 	padding:10px; 
+  	position:relative;
+  	padding-bottom:30px;
+  	font-family: "Georgia", sans-serif;
+}
+
+header img {
+  	border-radius:10px;
+}
+
+#flag {
+  	border:1px solid silver;
+  	margin-right:5px; 
+  	width:300;
+}
+
+#vfwLogo {
+  	position:absolute;
+  	top:140px;
+  	right:40px;
+  	border:1px solid silver;
+}
+
+#legionLogo {
+  	position:absolute;
+  	top:10px;
+  	right:40px;
+  	border:1px solid silver;
+}
+
+header h1{
+  	line-height: 1.25em;
+}
+
+/* Page structural elements */
+
+#pageOuter {
+  	background-color: #00276a;
+  	border-radius:10px;
+}
+
+#mainContentRow {
+  	background-color: white;
+  	padding-bottom:10px;
+}
+
+#mainContentRow h1, #mainContentRow h2 {
+  	color:#be0a2f;
+}
+
+#mainCol {
+  	padding:20px;
+}
+
+footer {
+  	color:#fff;
+  	padding:10px; 
+}
+
+.footer2{
+  	visibility:hidden;
+}
+
+#rightCol, #leftCol {
+   	margin: 2.5% 0;
+}
+
+#leftCol img{
+  	padding-left: 10px;
+}
+
+.breadcrumb {
+  	margin-top:2.5%;
+  	background-color:#E6ECFA;
+}
+
+/* Components and Modules */
+
+#monialsfader {
+ 	background-color: #be0a2f;
+   	border:2px solid silver;
+   	border-radius:10px;
+}
+
+.componentheading, #fwgallery div.fwg-title {
+  	font-size:2em;
+  	color: #be0a2f;
+  	margin-bottom:.5em;
+}
+
+/* This is the code for drop-down menus taken from Protostar but with a few tweaks of my own */
+
+nav .nav-child {
+	position: absolute;
+	top: 95%;
+	left: 0;
+	z-index: 1000;
+	display: none;
+	float: left;
+	min-width: 160px;
+	padding: 5px 0;
+	margin: 2px 0 0;
+	list-style: none;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border: 1px solid rgba(0,0,0,0.2);
+	*border-right-width: 2px;
+	*border-bottom-width: 2px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+	box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+	-webkit-background-clip: padding-box;
+	-moz-background-clip: padding;
+	background-clip: padding-box;
+}
+
+nav .nav-child.pull-right {
+	right: 0;
+	left: auto;
+}
+
+nav .nav-child .divider {
+	*width: 100%;
+	height: 1px;
+	margin: 8px 1px;
+	*margin: -5px 0 5px;
+	overflow: hidden;
+	background-color: #e5e5e5;
+	border-bottom: 1px solid #fff;
+}
+
+nav .nav-child a {
+	display: block;
+	padding: 3px 20px;
+	clear: both;
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 18px;
+	color: #00276a;
+	white-space: nowrap;
+}
+nav .nav > li {
+	position: relative;
+}
+nav .nav > li:hover > .nav-child,
+nav .nav > li > a:focus + .nav-child {
+	display: block;
+}
+nav .nav-child:before {
+	position: absolute;
+	top: -7px;
+	left: 9px;
+	display: inline-block;
+	border-right: 7px solid transparent;
+	border-bottom: 7px solid #ccc;
+	border-left: 7px solid transparent;
+	border-bottom-color: rgba(0,0,0,0.2);
+	content: '';
+}
+nav .nav-child:after {
+	position: absolute;
+	top: -6px;
+	left: 10px;
+	display: inline-block;
+	border-right: 6px solid transparent;
+	border-bottom: 6px solid #ffffff;
+	border-left: 6px solid transparent;
+	content: '';
+}
+nav .nav-child li > a:hover,
+nav .nav-child li > a:focus,
+nav .nav-child:hover > a  {
+	text-decoration: none;
+	color: #fff;
+	background-color: #be0a2f;
+}
+
+.navbar, .navbar ul .navbar li {
+  	background-color:#fff;
+}
+
+.navbar {
+  	border:1px solid #00276a;
+}
+
+.navbar .nav>.active>a {
+   	background-color: #be0a2f;
+  	color: #fff;
+  	text-decoration: none;
+}
+
+.navbar .nav > li > a {
+  	float: none;
+  	padding: 10px 15px 10px;
+  	color: #00276a;
+  	text-decoration: none;
+  	text-shadow: 0 1px 0 #ffffff;
+}
+
+.navbar .nav > li > a:focus,
+.navbar .nav > li > a:hover {
+  	background-color: #be0a2f;
+  	color: #fff;
+  	text-decoration: none;
+}

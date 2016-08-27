@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="3.1" type="template" client="site">
+	<name>marniescully</name>
+	<creationDate>03/01/2014</creationDate>
+	<author>Marnie Scully</author>
+	<authorEmail>marniescully@g.harvard.edu</authorEmail>
+	<copyright>Copyright (C) 2016 Palmerton, PA United Veterans Organization All rights reserved.</copyright>
+	<version>1.0</version>
+	<description>This is the template for the UVO website</description>
+
+	<files>
+		<folder>css</folder>
+		<folder>images</folder>
+		<filename>favicon.ico</filename>
+		<filename>index.php</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>templateDetails.xml</filename>
+	</files>
+
+	<positions>
+		<position>nav</position>
+		<position>left_3</position>
+		<position>breadcrumbs</position>
+		<position>right_3</position>
+		<position>randomhome</position>
+		<position>footer</position>
+	</positions>
+	
+</extension>
